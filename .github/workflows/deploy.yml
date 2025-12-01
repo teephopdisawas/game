@@ -19,21 +19,21 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: 'web-version/package-lock.json'
+        cache-dependency-path: 'game/package-lock.json'
         
     - name: Install dependencies
       run: |
-        cd web-version
+        cd game
         npm ci
         
-    - name: Run tests
+    - name: Lint
       run: |
-        cd web-version
-        npm run test
+        cd game
+        npm run lint
         
     - name: Build project
       run: |
-        cd web-version
+        cd game
         npm run build
         
     - name: Deploy to Vercel

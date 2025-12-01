@@ -1,0 +1,16 @@
+/* 🎮 Main App Styles for Echoes of Ellidra ✨ */
+
+.game-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.game-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 60px; /* Account for status bar */
+}

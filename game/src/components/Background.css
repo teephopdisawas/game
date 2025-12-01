@@ -1,0 +1,112 @@
+/* 🌅 Background Styles ✨ */
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 30, 0.3) 0%,
+    rgba(20, 10, 40, 0.5) 50%,
+    rgba(10, 10, 30, 0.8) 100%
+  );
+}
+
+/* Location-specific backgrounds 🗺️ */
+.background-unknown {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+}
+
+.background-ravengard {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2a4a6f 30%, #1a2a4f 70%, #0f1a2f 100%);
+}
+
+.background-whispering-woods {
+  background: linear-gradient(135deg, #1a3a2e 0%, #0d2818 50%, #0a1f10 100%);
+}
+
+.background-snowveil-forest {
+  background: linear-gradient(135deg, #2a3a4e 0%, #3a4a5e 30%, #1a2a3e 70%, #0f1a2e 100%);
+}
+
+.background-lumisth-glacier {
+  background: linear-gradient(135deg, #1a3a5e 0%, #2a5a7e 30%, #1a4a6e 70%, #0f2a4e 100%);
+}
+
+.background-ancient-ruins {
+  background: linear-gradient(135deg, #2a2a3e 0%, #3a2a4e 50%, #1a1a2e 100%);
+}
+
+.background-lake-eirysa {
+  background: linear-gradient(135deg, #1a3a5e 0%, #2a4a7e 50%, #1a2a4e 100%);
+}
+
+/* Floating glyph particles ✨ */
+.glyph-particles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.glyph-particle {
+  position: absolute;
+  bottom: -50px;
+  font-size: 1.5rem;
+  color: rgba(168, 85, 247, 0.3);
+  animation: float-up 15s linear infinite;
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Add some random movement variation */
+.glyph-particle:nth-child(odd) {
+  animation-name: float-up-sway;
+}
+
+@keyframes float-up-sway {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-55vh) translateX(30px) rotate(180deg);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-110vh) translateX(0) rotate(360deg);
+    opacity: 0;
+  }
+}
