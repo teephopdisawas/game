@@ -1,0 +1,138 @@
+/* 📊 Status Bar Styles ✨ */
+
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(180deg, rgba(15, 15, 30, 0.95), rgba(15, 15, 30, 0.7));
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.3);
+  z-index: 50;
+  gap: 1rem;
+}
+
+.status-left,
+.status-center,
+.status-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-right {
+  justify-content: flex-end;
+}
+
+.location-badge {
+  background: rgba(99, 102, 241, 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #e0e7ff;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.stability-badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.factions-display {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.faction-badge {
+  background: rgba(30, 30, 60, 0.8);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #f1f5f9;
+  border: 1px solid;
+  transition: all 0.3s ease;
+}
+
+.faction-badge:hover {
+  transform: scale(1.05);
+}
+
+.languages-display {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.lang-badge,
+.dialect-badge {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.lang-badge {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.dialect-badge {
+  background: rgba(168, 85, 247, 0.2);
+  color: #d8b4fe;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+.status-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.status-btn {
+  background: rgba(30, 30, 60, 0.8);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.status-btn:hover {
+  background: rgba(99, 102, 241, 0.3);
+  transform: scale(1.1);
+}
+
+.save-btn:hover {
+  border-color: #22c55e;
+}
+
+.reset-btn:hover {
+  border-color: #f59e0b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .status-bar {
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+
+  .status-center {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .factions-display {
+    font-size: 0.8rem;
+  }
+
+  .languages-display {
+    display: none;
+  }
+}

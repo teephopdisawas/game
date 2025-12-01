@@ -1,6 +1,6 @@
 [build]
-  base = "web-version-5"
-  publish = "web-version-5/dist"
+  base = "game"
+  publish = "game/dist"
   command = "npm ci && npm run build"
 
 [build.environment]
