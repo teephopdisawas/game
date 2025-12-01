@@ -65,6 +65,19 @@
 
 ---
 
+## 👻 Archivist Meren (Memory Spirit)
+- **Role:** Ancient Scholar Trapped in the Drift
+- **Faction:** Neutral (deceased)
+- **Personality:** Wise, melancholic, helpful beyond death
+- **Core Conflict:** Witnessed the First Speaker's transformation - carries guilt and hope
+- **Gameplay Hooks:**
+  - Found in the Ancient Ruins Drift Zone
+  - Teaches Pure Ellidric (at a cost)
+  - Reveals First Speaker's true history
+  - Can help stabilize Drift Zones
+
+---
+
 ## 🧩 NPC Archetypes
 | Archetype | Purpose | Example |
 |-----------|---------|---------|
