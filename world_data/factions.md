@@ -1,5 +1,26 @@
 # Echoes of Ellidra – Faction Dossier
 
+---
+
+## 📋 TL;DR - Know Your Factions! ⚔️✨
+
+> **Choose Your Side (or play them all!):**
+>
+> | Faction | Vibe | What They Want | Join For |
+> |---------|------|----------------|----------|
+> | 🏛️ **Institute** | Order & Control | Codify Ellidric, weaponize it | Memory Engines, Archives, Power |
+> | 🌲 **Clans** | Freedom & Nature | Keep language wild and living | Living Glyphs, Alternate Quests |
+> | 🔮 **Echoborn** | Mystery & Ancient Power | Unknown - they speak only Ellidric | Rare Glyphs, Hidden Lore |
+>
+> **Neutral Factions:**
+> - 📚 **Polyglot Guild** - Sells translation keys (useful for puzzles!)
+> - 🛡️ **Drift Wardens** - Side quest givers
+> - 🎵 **Silent Chorus** - Musical glyph puzzles
+>
+> **Pro Tip:** Your faction choices affect endings, available quests, AND which dialects you can learn! 🎯
+
+---
+
 ## 🏛️ Institute of Lingua Arcanum
 - **Motto:** “Order through Words”
 - **Core Belief:** Ellidric must be codified, regulated, and weaponized for stability

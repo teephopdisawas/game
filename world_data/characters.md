@@ -1,5 +1,23 @@
 # Echoes of Ellidra – Character Compendium
 
+---
+
+## 📋 TL;DR - Meet the Squad! 👥✨
+
+> **Your Main Allies:**
+> - 🧙‍♀️ **Lyra Veyndral** - Ex-Institute scholar who maps Memory Drift Zones. Knows secrets about the First Speaker. Trust her? Your call! 
+> - 🌿 **Serai** - Clan Storykeeper who speaks in riddles. She can teach you the living language of nature. 🌲
+>
+> **Your Potential Rival:**
+> - 🗡️ **Kaelen Dravik** - Institute Enforcer torn between duty and conscience. Could be enemy... or unexpected friend. ⚔️
+>
+> **The Mystery:**
+> - 🌀 **Veyth the Echoborn** - A being made of pure Ellidric. Speaks only in glyphs. What ARE they? 🤔
+>
+> **Key NPCs:** Glyph Scholars (lore), Drift Survivors (quests), Language Merchants (upgrades) 🎮
+
+---
+
 ## 🧙‍♀️ Lyra Veyndral
 - **Role:** Mnemonic Cartographer
 - **Faction:** Ex‑Institute, covert Clan ally

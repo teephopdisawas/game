@@ -1,5 +1,34 @@
 # Echoes of Ellidra – Gameplay Mechanics
 
+---
+
+## 📋 TL;DR - How To Play! 🎮✨
+
+> **Core Loop:**
+> 1. 📖 Read branching dialogue and make choices
+> 2. 🌀 Explore Memory Drift Zones 
+> 3. 🧩 Solve glyph puzzles
+> 4. 🤝 Build (or betray) trust with characters
+> 5. 👀 Watch your choices ripple through the world!
+>
+> **Key Systems:**
+> | System | What It Does | Why It Matters |
+> |--------|--------------|----------------|
+> | 🌀 **Memory Drift** | Reality distortions you explore | High stability = Institute wins, Low = Clans win |
+> | 🔤 **Languages** | Learn English/Dutch/Latin/Greek | Each reveals different Ellidric meanings! |
+> | 📊 **Faction Rep** | Track standing with 3 factions | Affects quests, dialogue, and endings |
+> | 🧩 **Glyph Puzzles** | Arrange glyphs correctly | Unlock memories and new routes |
+>
+> **Ellidric Dialects to Unlock:**
+> - 📖 **Codex** (start) → Standard Institute version
+> - 🌿 **Verdant** → Living Clan language (glyphs shift!)
+> - ❄️ **Glacial** → Light-based glacier puzzles
+> - 🔮 **Pure** → Ancient power, requires 2+ dialects
+>
+> **Replayability:** Different faction/dialect combos = different endings! Master all dialects to unlock Proto-Ellidric secrets! 🔥
+
+---
+
 ## 🌀 Core Systems Overview
 The game blends **visual novel branching** with **language‑driven puzzle mechanics** and **memory alteration consequences**.
 

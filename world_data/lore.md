@@ -1,5 +1,24 @@
 # Echoes of Ellidra – Lore Document
 
+---
+
+## 📋 TL;DR - Quick Lore Summary 🔥
+
+> **Setting:** Valdaren - A frost-bound fantasy land where **language literally shapes reality** ❄️🗣️
+> 
+> **The Magic System:** Ellidric - An ancient language with 4 layers: Sound, Emotion, Memory & Ethics. Speaking it can unlock memories, alter reality, or change someone's identity! 🔮
+> 
+> **Main Conflict:** Three factions war over control of Ellidric:
+> - 🏛️ **Institute** - Wants to codify and control the language
+> - 🌲 **Clans** - Believes language is alive and must stay wild
+> - 🔮 **Echoborn** - Claim to BE the language itself
+>
+> **You:** Awaken with no memories in a Drift Zone. Glyphs respond to your touch - a power not seen since the legendary First Speaker! ⚡
+>
+> **The Stakes:** Your choices will determine whether Ellidric is controlled, kept wild, or something else entirely... 🌟
+
+---
+
 ## 🌍 Setting: Valdaren
 A frost‑bound land where **language shapes reality**. Snow‑choked forests, crystal lakes, and ancient ruins are etched with *Ellidric* glyphs that hum with latent power.
 
