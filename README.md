@@ -4,6 +4,10 @@
 
 ![Status](https://img.shields.io/badge/status-active-success) ![Built With](https://img.shields.io/badge/built_with-react_typescript_vite-blue) ![Vibes](https://img.shields.io/badge/vibes-absolutely_legendary-gold)
 
+## 📸 Demo
+
+![Echoes of Ellidra Demo](about/demo-screenshot.png)
+
 ## 🎮 Play Now!
 
 ```bash
@@ -31,6 +35,36 @@ You wake in the frost-wrapped realm of **Valdaren** with no memory. Ancient **El
 - **👻 The Echoborn** - Mysterious beings who claim to BE the language itself
 
 Your choices will reshape Valdaren itself. What kind of First Speaker will you become?
+
+## 📜 Lore Summary
+
+### 🌍 The World
+**Valdaren** is a frost-bound realm where **language literally shapes reality**. Snow-choked forests, crystal lakes, and ancient ruins are etched with *Ellidric* glyphs that hum with latent power.
+
+### 🔮 The Magic System: Ellidric
+An ancient constructed language with **four mystical layers**:
+| Layer | What It Does |
+|-------|--------------|
+| 🎵 **Sound** | How it's spoken |
+| 💜 **Emotion** | Feeling it carries |
+| 🧠 **Mnemonic** | Memory it links to |
+| ⚖️ **Ethics** | Moral weight & consequences |
+
+Speaking Ellidric can unlock buried memories, alter perception of reality, or even change someone's identity! No single language fully translates it—English, Dutch, Latin, and Greek each reveal different facets.
+
+### ⚔️ The Conflict
+Three factions war over control of this powerful language:
+
+| Faction | Philosophy | Vibe |
+|---------|------------|------|
+| 🏛️ **Institute of Lingua Arcanum** | "Order through Words" - Codify & control Ellidric | Academic, powerful |
+| 🌲 **Clans of the Whispering Woods** | "The Word Breathes" - Keep Ellidric wild & free | Natural, spiritual |
+| 🔮 **The Echoborn** | "We Are the Echo" - They claim to BE the language | Mysterious, ancient |
+
+### 🌟 Your Journey
+You wake with no memories. Ancient glyphs respond to your touch—a power not seen since the legendary **First Speaker**. Your choices will determine whether Ellidric is controlled, kept wild, or something else entirely...
+
+> 📚 *Deep dive into the full lore at [`world_data/`](./world_data) — history, characters, factions & more!*
 
 ## 🛠️ Development
 
