@@ -3,6 +3,5 @@
   "name": "echoes-of-ellidra",
   "buildCommand": "cd game && npm ci && npm run build",
   "installCommand": "cd game && npm ci",
-  "framework": "nextjs",
-  "outputDirectory": "game/.next"
+  "framework": "nextjs"
 }
