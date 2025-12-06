@@ -1,4 +1,6 @@
 // 🌅 Background Scene Component ✨
+'use client';
+
 import { useMemo } from 'react';
 import type { LocationType } from '../types';
 import './Background.css';

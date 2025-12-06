@@ -1,25 +1,7 @@
 {
   "version": 2,
   "name": "echoes-of-ellidra",
-  "builds": [
-    {
-      "src": "game/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "cd game && npm ci && npm run build",
-  "outputDirectory": "game/dist",
-  "installCommand": "cd game && npm ci"
+  "installCommand": "cd game && npm ci",
+  "framework": "nextjs"
 }

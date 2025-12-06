@@ -1,4 +1,6 @@
 // 🎮 Game State Hook for Echoes of Ellidra 🔮✨
+'use client';
+
 import { useState, useCallback } from 'react';
 import type { GameState, FactionType, LanguageType, EllidricDialect } from '../types';
 import { scenes, initialGameState } from '../data';
@@ -7,6 +9,11 @@ const STORAGE_KEY = 'echoes-of-ellidra-save';
 
 export function useGameState() {
   const [gameState, setGameState] = useState<GameState>(() => {
+    // 🔒 Check if we're on the client side (not during SSR)
+    if (typeof window === 'undefined') {
+      return { ...initialGameState };
+    }
+    
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
