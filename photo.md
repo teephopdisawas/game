@@ -506,9 +506,10 @@ ui_[element]_[state].png
 
 **Naming Rules**:
 - Use lowercase for all file names
-- Use underscores (_) to separate words, not spaces or hyphens
+- Use underscores (_) to separate words and components, not spaces
 - Multi-word components: use underscores (e.g., `whispering_woods` not `whisperingwoods`)
-- Avoid special characters except underscores and hyphens in descriptions
+- Avoid special characters except underscores
+- For numbered variants, use two digits with leading zero (e.g., `_01`, `_02`)
 - Keep names descriptive but concise (max 50 characters)
 
 Examples:
@@ -546,6 +547,6 @@ Before starting production, clarify:
 ---
 
 **Document Version**: 1.0  
-**Last Updated**: 2025-12-06  
+**Last Updated**: 2025-12-06 (ISO 8601 format: YYYY-MM-DD)  
 **Maintained by**: Development Team  
 **For questions**: Reference the game/src/data/story.ts file for scene details
