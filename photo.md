@@ -457,25 +457,25 @@ Small vignettes for each memory collected:
 ## ✅ Asset Priority List
 
 ### High Priority (Core Gameplay)
-1. ✅ 7 Location backgrounds (currently using CSS gradients)
-2. ✅ 5 Main character portraits with 3-4 expressions each
-3. ✅ Ellidric glyph symbol set (floating particles, carved versions)
-4. ✅ Title screen artwork
-5. ✅ Emotion overlay effects
+1. 🔴 7 Location backgrounds (currently using CSS gradients - **needs replacement**)
+2. 🔴 5 Main character portraits with 3-4 expressions each (**not yet created**)
+3. 🔴 Ellidric glyph symbol set (floating particles, carved versions) (**needed**)
+4. 🔴 Title screen artwork (**needed**)
+5. 🔴 Emotion overlay effects (**needed**)
 
 ### Medium Priority (Enhanced Experience)
-6. Memory Drift special effects
-7. Faction indicator icons
-8. Language learning sequences
-9. Memory fragment vignettes
-10. UI decorative elements
+6. 🟡 Memory Drift special effects
+7. 🟡 Faction indicator icons
+8. 🟡 Language learning sequences
+9. 🟡 Memory fragment vignettes
+10. 🟡 UI decorative elements
 
 ### Low Priority (Polish)
-11. Animated transitions between scenes
-12. Additional character expressions
-13. Weather effects (snow, rain)
-14. Time-of-day variations for locations
-15. Easter egg hidden imagery
+11. 🟢 Animated transitions between scenes
+12. 🟢 Additional character expressions
+13. 🟢 Weather effects (snow, rain)
+14. 🟢 Time-of-day variations for locations
+15. 🟢 Easter egg hidden imagery
 
 ---
 
@@ -504,11 +504,22 @@ effect_[type]_[description].png
 ui_[element]_[state].png
 ```
 
+**Naming Rules**:
+- Use lowercase for all file names
+- Use underscores (_) to separate words, not spaces or hyphens
+- Multi-word components: use underscores (e.g., `whispering_woods` not `whisperingwoods`)
+- Avoid special characters except underscores and hyphens in descriptions
+- Keep names descriptive but concise (max 50 characters)
+
 Examples:
-- `location_ravengard_main.png`
-- `character_lyra_neutral.png`
-- `effect_drift_swirl.png`
-- `ui_institute_icon.png`
+- `location_ravengard_main.png` - Main background for Ravengard
+- `location_whispering_woods_clearing.png` - Specific area variant
+- `character_lyra_neutral.png` - Lyra's neutral expression
+- `character_kaelen_dravik_angry.png` - Multi-word name with emotion
+- `effect_drift_zone_swirl.png` - Drift zone effect with description
+- `effect_memory_fragment_01.png` - Numbered variants
+- `ui_institute_icon.png` - Faction UI element
+- `ui_language_badge_verdant.png` - Specific language badge
 
 ---
 
