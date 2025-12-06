@@ -560,4 +560,7 @@ Before starting production, clarify:
 **Document Version**: 1.0  
 **Last Updated**: 2025-12-06  
 **Maintained by**: Development Team  
-**For questions**: Reference the game/src/data/story.ts file for scene details
+**For questions**: 
+- Scene details: `game/src/data/story.ts` (see `scenes` array, line 55+)
+- Character info: `game/src/data/story.ts` (see `characters` array, line 4-53)
+- Type definitions: `game/src/types/game.ts` (see LocationType, line 36-43)
