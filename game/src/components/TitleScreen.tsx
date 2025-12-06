@@ -41,7 +41,7 @@ export function TitleScreen({ onStart, hasSave, onContinue }: TitleScreenProps) 
 
       <div className="title-footer">
         <p>A game about memory, language, and the power of choice</p>
-        <p className="credits">Built with React + TypeScript + Vite 💜</p>
+        <p className="credits">Built with Next.js 15 + React 19 + TypeScript 💜</p>
       </div>
     </div>
   );

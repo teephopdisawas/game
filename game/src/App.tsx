@@ -1,4 +1,6 @@
 // 🎮 Echoes of Ellidra - Main App Component ✨
+'use client';
+
 import { useState, useCallback } from 'react';
 import { useGameState } from './hooks';
 import { 
@@ -27,8 +29,8 @@ function App() {
     loadGame,
   } = useGameState();
 
-  // Check if there's a saved game
-  const hasSave = localStorage.getItem('echoes-of-ellidra-save') !== null;
+  // Check if there's a saved game (client-side only!)
+  const hasSave = typeof window !== 'undefined' && localStorage.getItem('echoes-of-ellidra-save') !== null;
 
   // Handle starting a new game
   const handleNewGame = useCallback(() => {

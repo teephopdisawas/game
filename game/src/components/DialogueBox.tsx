@@ -1,4 +1,6 @@
 // 🎮 Dialogue Box Component 💬✨
+'use client';
+
 import { useState, useEffect } from 'react';
 import type { DialogueLine } from '../types';
 import './DialogueBox.css';
