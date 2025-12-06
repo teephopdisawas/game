@@ -273,10 +273,16 @@ For DialogueBox component emotional states:
 - **Special Effects**: 1920x1080, with alpha channel transparency
 
 ### File Formats
-- **Backgrounds**: PNG or WebP with optimization
+- **Backgrounds**: PNG, WebP, or JPEG (JPEG for photographic content without transparency)
 - **Characters**: PNG with transparent backgrounds
 - **Effects**: PNG with alpha channel
 - **UI Icons**: SVG preferred for scalability
+
+**Format Selection Guide**:
+- Use JPEG for photographic backgrounds without transparency (better compression, smaller file size)
+- Use PNG for images requiring transparency or sharp edges
+- Use WebP for modern browsers with best quality-to-size ratio
+- Use SVG for icons and vector graphics that need to scale
 
 ### Style Guidelines
 - **Art Style**: Semi-realistic to stylized painterly
@@ -506,21 +512,25 @@ ui_[element]_[state].png
 
 **Naming Rules**:
 - Use lowercase for all file names
-- Use underscores (_) to separate words and components, not spaces
-- Multi-word components: use underscores (e.g., `whispering_woods` not `whisperingwoods`)
-- Avoid special characters except underscores
+- Use underscores (_) to separate category from name (e.g., `location_`, `character_`)
+- Use kebab-case (hyphens) for multi-word location/character names to match codebase convention
+- For additional descriptors, use underscores after the main name
+- Avoid special characters except underscores and hyphens
 - For numbered variants, use two digits with leading zero (e.g., `_01`, `_02`)
 - Keep names descriptive but concise (max 50 characters)
 
+**Rationale**: Location names use kebab-case to match the TypeScript LocationType enum in `game/src/types/game.ts`.
+
 Examples:
 - `location_ravengard_main.png` - Main background for Ravengard
-- `location_whispering_woods_clearing.png` - Specific area variant
-- `character_lyra_neutral.png` - Lyra's neutral expression
-- `character_kaelen_dravik_angry.png` - Multi-word name with emotion
-- `effect_drift_zone_swirl.png` - Drift zone effect with description
-- `effect_memory_fragment_01.png` - Numbered variants
+- `location_whispering-woods_clearing.png` - Multi-word location with variant
+- `location_snowveil-forest_dawn.png` - Location with time/lighting variant
+- `character_lyra_neutral.png` - Single-word character name with emotion
+- `character_kaelen-dravik_angry.png` - Multi-word character name with emotion
+- `effect_drift-zone_swirl.png` - Multi-word effect type with description
+- `effect_memory-fragment_01.png` - Numbered variants
 - `ui_institute_icon.png` - Faction UI element
-- `ui_language_badge_verdant.png` - Specific language badge
+- `ui_language-badge_verdant.png` - Multi-word UI element with variant
 
 ---
 
@@ -547,6 +557,6 @@ Before starting production, clarify:
 ---
 
 **Document Version**: 1.0  
-**Last Updated**: 2025-12-06 (ISO 8601 format: YYYY-MM-DD)  
+**Last Updated**: 2025-12-06  
 **Maintained by**: Development Team  
 **For questions**: Reference the game/src/data/story.ts file for scene details
