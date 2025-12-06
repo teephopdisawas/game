@@ -273,16 +273,17 @@ For DialogueBox component emotional states:
 - **Special Effects**: 1920x1080, with alpha channel transparency
 
 ### File Formats
-- **Backgrounds**: PNG, WebP, or JPEG (JPEG for photographic content without transparency)
-- **Characters**: PNG with transparent backgrounds
-- **Effects**: PNG with alpha channel
+- **Backgrounds**: PNG, WebP, or JPEG (use JPEG only for photographic content without transparency)
+- **Characters**: PNG with transparent backgrounds (JPEG not supported due to transparency needs)
+- **Effects**: PNG with alpha channel (transparency required)
 - **UI Icons**: SVG preferred for scalability
 
 **Format Selection Guide**:
-- Use JPEG for photographic backgrounds without transparency (better compression, smaller file size)
-- Use PNG for images requiring transparency or sharp edges
-- Use WebP for modern browsers with best quality-to-size ratio
-- Use SVG for icons and vector graphics that need to scale
+- Use **JPEG** for photographic backgrounds without transparency (better compression, smaller file size)
+  - ⚠️ **Important**: JPEG does not support transparency - only use when background is fully opaque
+- Use **PNG** for images requiring transparency or sharp edges (supports alpha channel)
+- Use **WebP** for modern browsers with best quality-to-size ratio (supports transparency)
+- Use **SVG** for icons and vector graphics that need to scale
 
 ### Style Guidelines
 - **Art Style**: Semi-realistic to stylized painterly
