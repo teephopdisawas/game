@@ -74,6 +74,11 @@ onUnmounted(() => {
   if (timer) clearInterval(timer)
 })
 
+// Reset index when dialogue changes (e.g., new scene)
+watch(() => props.dialogue, () => {
+  currentIndex.value = 0
+}, { deep: true })
+
 const handleClick = () => {
   if (isTyping.value) {
     // Skip to end of current text
@@ -82,7 +87,6 @@ const handleClick = () => {
     if (timer) clearInterval(timer)
   } else if (isLastLine.value) {
     // Dialogue complete
-    currentIndex.value = 0
     emit('complete')
   } else {
     // Next line

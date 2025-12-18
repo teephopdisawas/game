@@ -22,10 +22,11 @@ const createInitialState = (): GameState => {
   return { ...initialGameState }
 }
 
-export function useGameState() {
-  const gameState = ref<GameState>(createInitialState())
-  const isLoading = ref(false)
+// Singleton state - shared across all components that use this composable
+const gameState = ref<GameState>(createInitialState())
+const isLoading = ref(false)
 
+export function useGameState() {
   // Get current scene
   const currentScene = computed(() => {
     return scenes.find(s => s.id === gameState.value.currentSceneId) || scenes[0]
