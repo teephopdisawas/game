@@ -1,6 +1,6 @@
 # 🔮 Echoes of Ellidra - Visual Novel Game ✨
 
-A mystical visual novel where **Language Shapes Reality**! Built with Next.js 15, React 19, and TypeScript. 🎮💜
+A mystical visual novel where **Language Shapes Reality**! Built with Vue.js 3, TypeScript, and Vite. 🎮💜
 
 ## 🎯 About
 
@@ -31,20 +31,20 @@ npm run dev
 # Build for production
 npm run build
 
-# Start production server
-npm run start
+# Preview production build
+npm run preview
 ```
 
-Visit `http://localhost:3000` to start your adventure! 🎮
+Visit `http://localhost:5173` to start your adventure! 🎮
 
 ## 📦 Tech Stack
 
-- **Framework**: Next.js 15.5.7 with App Router
-- **React**: 19.2.1
-- **TypeScript**: 5.9.3
-- **Styling**: CSS Modules with custom animations
-- **State Management**: React Hooks + localStorage
-- **Deployment**: Optimized for Vercel
+- **Framework**: Vue.js 3.4 with Composition API
+- **Build Tool**: Vite 5.2
+- **TypeScript**: 5.4
+- **Styling**: CSS with custom animations
+- **State Management**: Vue Composables + localStorage
+- **Deployment**: Optimized for Vercel/Netlify
 
 ## 🎨 Features
 
@@ -58,52 +58,40 @@ Visit `http://localhost:3000` to start your adventure! 🎮
 - ✅ Drift stability meter
 
 ### Technical Features
-- ⚡️ Server-side rendering with Next.js
+- ⚡️ Fast dev server with Vite HMR
 - 🎯 Static generation for instant loads
-- 🔒 Security headers
-- 💨 Compression enabled
-- 📱 PWA-ready with manifest
-- 🖼️ Optimized images (AVIF & WebP)
-- 🚀 Standalone output for Vercel
+- 🔒 Type-safe with TypeScript
+- 💨 Optimized production builds
+- 📱 Responsive design
+- 🖼️ CSS animations and transitions
 
 ## 📁 Project Structure
 
 ```
 game/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout with metadata
-│   └── page.tsx           # Main game page
+├── index.html              # Entry HTML file
+├── vite.config.ts          # Vite configuration
+├── tsconfig.json           # TypeScript config
 ├── src/
-│   ├── components/        # Game UI components
-│   │   ├── Background.tsx
-│   │   ├── ChoiceMenu.tsx
-│   │   ├── DialogueBox.tsx
-│   │   ├── StatusBar.tsx
-│   │   └── TitleScreen.tsx
-│   ├── hooks/            # Custom React hooks
+│   ├── main.ts             # Vue app entry
+│   ├── App.vue             # Main game component
+│   ├── components/         # Vue components
+│   │   ├── Background.vue
+│   │   ├── ChoiceMenu.vue
+│   │   ├── DialogueBox.vue
+│   │   ├── StatusBar.vue
+│   │   ├── FactionBadge.vue
+│   │   └── TitleScreen.vue
+│   ├── composables/        # Vue composables
 │   │   └── useGameState.ts
-│   ├── data/             # Game story and data
+│   ├── data/               # Game story and data
 │   │   └── story.ts
-│   ├── types/            # TypeScript definitions
+│   ├── types/              # TypeScript definitions
 │   │   └── game.ts
-│   ├── App.tsx           # Main game component
-│   ├── App.css           # App styling
-│   └── index.css         # Global styles
-├── public/               # Static assets
-│   └── manifest.json     # PWA manifest
-├── next.config.ts        # Next.js configuration
-└── tsconfig.json         # TypeScript config
+│   └── index.css           # Global styles
+└── public/                 # Static assets
+    └── manifest.json       # PWA manifest
 ```
-
-## 🔄 Migration from Vite
-
-This project was successfully migrated from Vite to Next.js 15! See [MIGRATION.md](./MIGRATION.md) for details.
-
-Key changes:
-- ✅ App Router structure
-- ✅ Client components with 'use client' directive
-- ✅ SSR-compatible localStorage handling
-- ✅ Vercel-optimized configuration
 
 ## 🎮 How to Play
 
@@ -117,9 +105,7 @@ Key changes:
 
 ## 🌟 Deployment
 
-### Vercel (Recommended)
-This project is optimized for Vercel deployment:
-
+### Vercel
 ```bash
 # Install Vercel CLI
 npm i -g vercel
@@ -128,28 +114,34 @@ npm i -g vercel
 vercel
 ```
 
-Or connect your GitHub repo to Vercel for automatic deployments! 🚀
+### Netlify
+```bash
+# Build
+npm run build
 
-### Other Platforms
-The standalone output mode makes it easy to deploy anywhere:
-- Build: `npm run build`
-- Start: `npm run start`
-- Runs on port 3000 by default
+# Deploy dist folder to Netlify
+```
+
+### Docker
+The project can be containerized for deployment anywhere:
+```bash
+# Build production files
+npm run build
+
+# Serve with any static file server
+```
 
 ## 🛠️ Development
 
 ```bash
-# Run dev server with Turbopack (fast!)
+# Run dev server with HMR
 npm run dev
 
 # Type checking
-npx tsc --noEmit
-
-# Linting
-npm run lint
-
-# Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
 ## 📜 License
@@ -158,7 +150,7 @@ This is a game project built for fun and learning! Feel free to explore and lear
 
 ## 🙌 Credits
 
-Built with Next.js 15 + React 19 + TypeScript by Gen Z devs for Gen Z gamers! 💯🔥
+Built with Vue.js 3 + TypeScript + Vite by Gen Z devs for Gen Z gamers! 💯🔥
 
 ---
 
