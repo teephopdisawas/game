@@ -1,5 +1,6 @@
-export { DialogueBox } from './DialogueBox';
-export { ChoiceMenu } from './ChoiceMenu';
-export { StatusBar } from './StatusBar';
-export { Background } from './Background';
-export { TitleScreen } from './TitleScreen';
+export { default as DialogueBox } from './DialogueBox.vue'
+export { default as ChoiceMenu } from './ChoiceMenu.vue'
+export { default as StatusBar } from './StatusBar.vue'
+export { default as Background } from './Background.vue'
+export { default as TitleScreen } from './TitleScreen.vue'
+export { default as FactionBadge } from './FactionBadge.vue'

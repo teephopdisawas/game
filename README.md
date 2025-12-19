@@ -2,7 +2,7 @@
 
 > **A visual novel where language shapes reality!** Wake up in the frost-bound realm of Valdaren with no memory, discover you're the legendary First Speaker, and choose your destiny among warring factions! 🎮💜
 
-![Status](https://img.shields.io/badge/status-active-success) ![Built With](https://img.shields.io/badge/built_with-react_typescript_vite-blue) ![Vibes](https://img.shields.io/badge/vibes-absolutely_legendary-gold)
+![Status](https://img.shields.io/badge/status-active-success) ![Built With](https://img.shields.io/badge/built_with-vue_typescript_vite-blue) ![Vibes](https://img.shields.io/badge/vibes-absolutely_legendary-gold)
 
 ## 📸 Demo
 
@@ -102,9 +102,9 @@ docker compose --profile dev up web-dev
 ```
 game/                    # Main game application
 ├── src/
-│   ├── components/     # React UI components
+│   ├── components/     # Vue UI components
+│   ├── composables/    # Vue composables (state)
 │   ├── data/          # Story and game data
-│   ├── hooks/         # Custom React hooks
 │   └── types/         # TypeScript definitions
 ├── public/            # Static assets
 └── dist/              # Production build
@@ -121,8 +121,8 @@ Ellidric/             # Language reference
 
 ## 🎭 Tech Stack
 
-- **⚛️ React 19** - UI framework
-- **⚡ Vite 7** - Lightning-fast builds
+- **🌿 Vue.js 3** - UI framework with Composition API
+- **⚡ Vite 5** - Lightning-fast builds
 - **📘 TypeScript** - Type safety
 - **🎨 CSS** - Beautiful styling
 
